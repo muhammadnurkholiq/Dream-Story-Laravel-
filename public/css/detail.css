@@ -1,0 +1,108 @@
+.content .container .detail-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.content .container .detail-flex .thumbnail {
+    width: 30%;
+    padding: 10px;
+}
+
+.content .container .detail-flex .thumbnail img {
+    width: 100%;
+    height: 100%;
+}
+
+.content .container .detail-flex .detail {
+    width: 70%;
+    padding: 10px;
+}
+
+.content .container .detail-flex .detail h1 {
+    font-size: 250%;
+}
+
+.content .container .detail-flex .detail h2 {
+    font-size: 130%;
+}
+
+.content .container .detail-flex .detail .sinopsis {
+    margin-top: 3%;
+    font-weight: 700;
+}
+
+.content .container .detail-flex .detail .buttons {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.content .container .detail-flex .detail .buttons .btn {
+    padding: 1vh 1vw;
+    border: none;
+    color: #fff !important;
+    border-radius: 10px;
+    font-weight: 650;
+}
+
+.content .container .detail-flex .detail .buttons .btn:focus {
+    box-shadow: none;
+}
+
+.content .container .detail-flex .detail .buttons .btn-first {
+    background-color: #506FBE;
+}
+
+.content .container .detail-flex .detail .buttons .btn-first:hover {
+    background-color: #405997;
+}
+
+.content .container .detail-flex .detail .buttons .btn-last {
+    background-color: #EB4444;
+}
+
+.content .container .detail-flex .detail .buttons .btn-last:hover {
+    background-color: #b93232;
+}
+
+.content .container .chapter {
+    margin-top: 5%;
+}
+
+.content .container .chapter  .chapter-scroll {
+    height: 80vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.content .container .chapter  .chapter-scroll a {
+    text-decoration: none;
+    color: #000;
+}
+
+.content .container .chapter  .chapter-scroll a:hover {
+    text-decoration: none;
+    color: #b68ec0;;
+}
+
+.content .container .chapter .chapter-scroll .chapter-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5vh 1vw;
+}
+
+.content .container .chapter .chapter-scroll .chapter-data:hover {
+    cursor: pointer;
+}
+
+.content .container .chapter h1 {
+    font-weight: 650;
+    font-size: 150%;
+}
+
+.content .container .chapter .chapter-scroll .chapter-data h2 {
+    font-weight: 400;
+    font-size: 110%;
+}

@@ -1,0 +1,68 @@
+.content .jumbotron {
+    width: 100% !important; 
+    border-radius: 45px;
+}
+
+.content .jumbotron img {
+    width: 100% !important; 
+}
+
+.content .story-home .story  {
+    margin-top: 8vh;
+}
+
+.content .story-home .story h1 {
+    font-weight: 650;
+    font-size: 150%;
+}
+
+.content .story-home .story .story-content {
+    width: 100%;
+    height: 52vh;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    background-color: #FFF;
+}
+
+.content .story-home .story .story-content .data {
+    width: 15vw;
+    height: 45vh;
+    margin: 1vh 0.5vw 1vh 0.5vw;
+}
+
+.content .story-home .story .story-content .data2 .view-all {
+    width: 6vw;
+    text-align: center !important;
+    margin-left: 1vw;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.content .story-home .story .story-content .data2 .view-all:hover {
+    cursor: pointer;
+}
+
+.content .story-home .story .story-content .data2 .view-all a {
+    font-size: 120%;
+    font-weight: 550;
+    text-decoration: none;
+    color: #000;
+}
+
+.content .story-home .story .story-content .data .data-cover {
+    overflow: hidden;
+}
+
+.content .story-home .story .story-content .data .data-cover .data-hover:hover {
+    cursor: pointer;
+    transition: 2s;
+    transform: scale(1.1)
+}
+
+.content .story-home .story .story-content .data .data-cover .data-hover img {
+    width: 15vw;
+    height: 45vh;
+}
